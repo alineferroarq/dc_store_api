@@ -1,5 +1,5 @@
 import  express  from 'express'
-
+import db from './db/db.js/db.js'
 const app = express()
 
 app.use(express.json()) //express vai configurar metodos http na aplicação
