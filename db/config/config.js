@@ -1,8 +1,8 @@
 export const DB_CONFIG = {
     host:'localhost',
-    port: 3308,
-    user: 'root',
+    port: 3452,
+    user: 'postgres',
     pass: '1234',
-    db:'dripstore',
-    dialect: 'mysql'
+    db:'dc',
+    dialect: 'postgres'
  }

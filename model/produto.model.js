@@ -1,8 +1,8 @@
-import { Sequelize } from "sequelize";
+import { DataTypes } from "sequelize";
+import { connection } from "../db/db.js/db.js";
 
-const produtoModel = (sequelize, Sequelize) => {
-    const { Sequelize, DataTypes } = require('sequelize');
-    const Produto = sequelize.define('produto', {
+export const produtoModel = connection => {
+    const Produto = connection.define('produto', {
     
           // Model attributes are defined here
       nome: {
