@@ -8,7 +8,7 @@ app.use(express.json()) //express vai configurar metodos http na aplicação
 
 app.use(express.urlencoded({extended: true}))
 
-db.connection.sync({force: true})
+db.connection.sync()
 .then(() => {
     console.log('drop and re-sync db');
 })
