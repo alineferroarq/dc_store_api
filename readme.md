@@ -20,3 +20,5 @@ quinta coisa as tabelas
 
 jaller ver outro app de administração de bancos de dados
 procurar videos no google crud conode react
+
+lembrete quando for usar pg admin tem quer ser a mesma versão do postgres
