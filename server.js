@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
 })
 routerProduto(app)
 
-const HOST = 'localhost'
+const HOST = process.env.HOST
 const PORT = '5000'
 
 app.listen(PORT, () => {
