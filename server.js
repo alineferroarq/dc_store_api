@@ -1,8 +1,12 @@
 import  express  from 'express'
 import db from './model/index.js'
 import { routerProduto } from './routes/produto.routes.js'
+import cors from "cors"
+
 
 const app = express()
+
+app.use(cors())
 
 app.use(express.json()) //express vai configurar metodos http na aplicação
 
